@@ -1,0 +1,28 @@
+Virtual User Script started at : 2016-03-15 07:56:36
+TruClient Replay for LoadRunner 12.0.0, build 2739. OS: Windows 7, initialized on 2016/03/15 at 07:56:33 (0000.000s)
+Starting action Init.
+Ending action Init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+t=00003154ms: ** 1: Navigate to "http://stormhelp.saas.h...amic_value.html" ** started    [MsgId: MMSG-205180]
+t=00003820ms: ** 1: Navigate to "http://stormhelp.saas.h...amic_value.html" ** successfully completed    [MsgId: MMSG-205180]
+t=00004329ms: ** 2: Click on Generate button ** started    [MsgId: MMSG-205180]
+t=00004555ms: ** 2: Click on Generate button ** successfully completed    [MsgId: MMSG-205180]
+t=00005057ms: ** 3: Evaluate JavaScript var capturedText = objec...2),"Standard");  on No. 13 ** started    [MsgId: MMSG-205180]
+t=00005061ms: Captured String Using Evaluate JS on Object: 25    [MsgId: MMSG-205180]
+t=00005267ms: ** 3: Evaluate JavaScript var capturedText = objec...2),"Standard");  on No. 13 ** successfully completed    [MsgId: MMSG-205180]
+t=00005281ms: ** 4: Evaluate JavaScript code capturedText = document....xt.substr(4,2)); ** started    [MsgId: MMSG-205180]
+t=00005283ms: Captured String Using Evaluate JavaScript Code: 25    [MsgId: MMSG-205180]
+t=00005489ms: ** 4: Evaluate JavaScript code capturedText = document....xt.substr(4,2)); ** successfully completed    [MsgId: MMSG-205180]
+t=00005495ms: ** 5: Get Visible Text from No. 13 ** started    [MsgId: MMSG-205180]
+t=00005705ms: ** 5: Get Visible Text from No. 13 ** successfully completed    [MsgId: MMSG-205180]
+t=00005721ms: ** 6: Evaluate JavaScript code TC.log("Captured String ...,2),"Standard"); ** started    [MsgId: MMSG-205180]
+t=00005725ms: Captured String Using Verify Function getProperty: 25    [MsgId: MMSG-205180]
+t=00005935ms: ** 6: Evaluate JavaScript code TC.log("Captured String ...,2),"Standard"); ** successfully completed    [MsgId: MMSG-205180]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action End.
+Ending action End.
+Vuser Terminated.

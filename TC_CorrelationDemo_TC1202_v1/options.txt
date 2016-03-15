@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\sxm8022\Desktop\TruClientFirefox1
+-IC:\Program Files (x86)\HP\Virtual User Generator\include
+-ec:\users\sxm8022\desktop\truclientfirefox1\\logfile.log
+c:\users\sxm8022\desktop\truclientfirefox1\\combined_TruClientFirefox1.c
+c:\users\sxm8022\desktop\truclientfirefox1\\pre_cci.c
